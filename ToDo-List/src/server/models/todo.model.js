@@ -7,7 +7,7 @@ var ToDoSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    isComplete: Boolean
+    isComplete: {type: Boolean, default: false}
 });
 
 mongoose.model('Todo', ToDoSchema);

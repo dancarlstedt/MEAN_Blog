@@ -1,11 +1,8 @@
 var moment = require('moment');
 
-module.exports = {
+exports.render = function (req, res) {
 
-    render: function (req, res) {
-
-        res.render('index', {
-            now: moment().format('MMM DD YY, hh:mm:ss a')
-        });
-    }
+    res.render('index', {
+        now: moment().format('MMM DD YY, hh:mm:ss a')
+    });
 };

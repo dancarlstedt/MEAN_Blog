@@ -5,7 +5,7 @@ module.exports = function () {
     var db = mongoose.connect(config.db);
 
     // load models here
-    require('../models/todo.model.js');
+    require('../models/todo.model');
 
     return db;
-}
+};
