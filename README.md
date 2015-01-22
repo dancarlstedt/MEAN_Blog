@@ -1,2 +1,2 @@
 # MEAN_Blog
-A collection of sample application linked from my MEAN blog @ www.dancarlstedt.com
+A collection of sample applications linked from my MEAN blog @ www.dancarlstedt.com
