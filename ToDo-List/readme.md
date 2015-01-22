@@ -5,7 +5,7 @@ This is a simple todo list application written entirely in JavaScript using the 
 The structure of this app is meant for smaller MEAN applications and can be used as a starting point for any new MEAN application.
 
 ### Server
-The backend structure is using the MCV pattern
+The backend structure is using the MVC pattern to separate the concerns of each file.
 
 ### Client
 Todo
